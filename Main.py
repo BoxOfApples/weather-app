@@ -1,4 +1,3 @@
-git status
 import requests
 A = "48534e6daec4966aae103210c01f918f"
 c = input("Введмте город: ")
