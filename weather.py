@@ -9,6 +9,6 @@ if r.status_code == 200:
     t = d["main"]["temp"]
     w = d["weather"][0]["description"]
     print(f"Temperatura w {c}:{t}")
-    print(f"Погода {w}")
+    print(f"Pogoda: {w}")
 else:
     print("Błąd podczas pobierania danych.")
